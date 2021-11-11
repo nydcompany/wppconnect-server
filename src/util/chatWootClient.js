@@ -53,7 +53,7 @@ export default class chatWootClient {
       this.sendMessage(client, {
         sender: this.sender,
         chatId: '',
-        body: `wppconnect status: ${status} `,
+        body: `whatsplus status: ${status} `,
       });
     });
 
